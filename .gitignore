@@ -18,6 +18,7 @@
 ### direnv ###
 .direnv
 .envrc
+.env
 
 ### Images ###
 # JPEG
