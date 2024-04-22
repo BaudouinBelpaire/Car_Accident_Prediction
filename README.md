@@ -88,7 +88,7 @@
 &emsp; We only have a visualisation for the Kaggle dataset, as it only matters for this one. The second dataset only has three hundred images of each type of road.  
 Firstly, we made a small visualisation of the data on a map of the United Kingdom to get a representation of the accident:
 
-![(data/accident-map.gif)](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/data/img/accident-map.gif)
+![(data/accident-map.gif)](https://github.com/BaudouinBelpaire/Machine_Learning/blob/main/data/img/accident-map.gif)
 
 Secondly, we made a visualisation of the whole dataset to fully understand what we were going to manipulate: 
 
