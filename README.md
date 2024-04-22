@@ -310,6 +310,3 @@ Link to the script: [user interface](scripts/ui_crash_prophet.py)
 We have drawn up a diagram to explain how the satellite images dataset has been created : 
 
 ![](data/img/dmml-pink-twins-satellite-images-loading.png)
-=======
-# Machine_Learning
->>>>>>> 178f7e5544c402839b5c2c0d0a9fe287534b821a
