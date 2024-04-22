@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ![image](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/assets/122283320/ee6787f4-e19f-434f-9467-100c6e726c8f)[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/58HShPQN)
 # Data Mining and Machine Learning Group Coursework: CrashProphet
 ## Group: Pink Twins
@@ -311,3 +312,6 @@ Link to the script: [user interface](https://github.com/dmml-heriot-watt/group-c
 We have drawn up a diagram to explain how the satellite images dataset has been created : 
 
 ![](data/img/dmml-pink-twins-satellite-images-loading.png)
+=======
+# Machine_Learning
+>>>>>>> 178f7e5544c402839b5c2c0d0a9fe287534b821a
