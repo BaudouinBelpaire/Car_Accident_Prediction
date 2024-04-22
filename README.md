@@ -88,14 +88,14 @@
 &emsp; We only have a visualisation for the Kaggle dataset, as it only matters for this one. The second dataset only has three hundred images of each type of road.  
 Firstly, we made a small visualisation of the data on a map of the United Kingdom to get a representation of the accident:
 
-![(data/accident-map.gif)](https://github.com/BaudouinBelpaire/Machine_Learning/blob/main/data/img/accident-map.gif)
+![(data/accident-map.gif)](data/img/accident-map.gif)
 
 Secondly, we made a visualisation of the whole dataset to fully understand what we were going to manipulate: 
 
 ![histogram](data/histogram.png)
 
 &emsp; This visualisation is made on the raw dataset. We can already see that some information will not be relevant for the next step of the project such as the unnamed attribute. Another important thing to note is the distribution of the 'Accident_Severity' attribute. We can see that our classes are very unbalanced.  
-&emsp; We have also calculated the correlation of every feature of the dataset: [correlation](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/notebooks/traitement/correlation.py). This allowed us to better understand the relationship between our features and to know which ones we could erased.
+&emsp; We have also calculated the correlation of every feature of the dataset: [correlation](notebooks/traitement/correlation.py). This allowed us to better understand the relationship between our features and to know which ones we could erased.
 
 Based on these analyses, we knew which features we had to get rid of and what we had to watch out for.
 
@@ -113,7 +113,7 @@ Based on these analyses, we knew which features we had to get rid of and what we
 * Transforming the Time feature into a discrete attribute by removing the minutes to categorize it
 * Exporting the processed dataset into AWS to save time when using it
 
-Link of the notebook: [Preprocessing](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/notebooks/dataset_traitement.ipynb)
+Link of the notebook: [Preprocessing](notebooks/dataset_traitement.ipynb)
 
 ### Results of the split: 
 
@@ -150,7 +150,7 @@ To demonstrate the fact that clustering is not useful to us, we used three algor
 
 &emsp; This result highlights the fact that the algorithm is not suited for our data. Indeed, even if we have the right number of clusters, we can see that it takes data from each severity. This is why we did not keep this model. This lack of results can be explained by the data itself. We did a lot of experiment changing the hyperparameters, but this is the "best" result we obtained.
 
-Link to the notebook: [K-mean](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/notebooks/k_means.ipynb)
+Link to the notebook: [K-mean](notebooks/k_means.ipynb)
 
 #### &emsp; Hierarchical Clustering: 
 
