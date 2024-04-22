@@ -3,11 +3,11 @@
 
 ## Group Members:
 
-1. BELPAIRE Baudoin - @BaudFrag        - H00445613
-2. LARDEAU Valentin - @ValentinLardeau - H00453864
-3. PERROT Romain    - @RP-08           - H00448974
-4. SANTE Guilhem    - @guilhem-sante   - H00447741
-5. WALDVOGEL Elliot - @elliotwld       - H00447733
+1. BELPAIRE Baudouin - @BaudFrag        - H00445613
+2. LARDEAU Valentin  - @ValentinLardeau - H00453864
+3. PERROT Romain     - @RP-08           - H00448974
+4. SANTE Guilhem     - @guilhem-sante   - H00447741
+5. WALDVOGEL Elliot  - @elliotwld       - H00447733
 
 ## Topic of the Project: 
 
@@ -160,7 +160,7 @@ Link to the notebook: [K-mean](notebooks/k_means.ipynb)
 
 &emsp; This dendrogram highlights the fact that clustering is not adapted to our data. Indeed, we only have two different classes whereas three were expected. Even by changing the hyperparameters, we were never able to obtain three.
 
-Link to the notebook: [Hierarchical clustering](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/notebooks/hierarchical_clustering.ipynb)
+Link to the notebook: [Hierarchical clustering](notebooks/hierarchical_clustering.ipynb)
 
 #### &emsp; Affinity Clustering: 
 
@@ -170,7 +170,7 @@ The third algorithm we tried was the affinity clustering. To visualize the resul
 
 &emsp; This image highlights the fact that this clustering is also not suitable for our data. We wanted to find 3 clusters, but as we can see, there are more than three. Besides, we cannot see a true scatter plot. Our data is simply scattered and does not create true clusters. This is certainly because our data are too complex for this type of algorithm.
 
-Link to the notebook: [Affinity Clustering](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/notebooks/affinity_clustering_old.ipynb)
+Link to the notebook: [Affinity Clustering](notebooks/affinity_clustering_old.ipynb)
 
 ### Conclusion: 
 
@@ -204,7 +204,7 @@ Link to the notebook: [Affinity Clustering](https://github.com/dmml-heriot-watt/
 
 ![](data/img/random_forest_table.png)
 
-Link to the notebook: [random forest](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/notebooks/random_forest.ipynb)
+Link to the notebook: [random forest](notebooks/random_forest.ipynb)
 
 #### &emsp; Bayesian Model: 
 
@@ -235,7 +235,7 @@ With our "best" model, we obtained the following table:
 
 &emsp; Therefore, despite all our experiments, we were unable to make this model accurate. So, we concluded that it was not a suitable model for our data.
 
-Link to the notebook: [Bayesian model](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/notebooks/bayes.ipynb)
+Link to the notebook: [Bayesian model](notebooks/bayes.ipynb)
 
 #### Conclusion: 
 
@@ -280,7 +280,7 @@ We were also able to obtain this table:
 
 ![](data/img/CNN_table.png)
 
-Link to the notebook: [CNN](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/notebooks/cnn.ipynb)
+Link to the notebook: [CNN](notebooks/cnn.ipynb)
 
 #### Conclusion:
 
@@ -299,11 +299,11 @@ Link to the notebook: [CNN](https://github.com/dmml-heriot-watt/group-coursework
 ## Collapsed Section: 
 
 ### User Interface: 
-We thought it would be relevant to add some information about the code itself. We decided to implement a very basic user interface. Using the Tkinter library, we created a window that open when the code is launched. In this window, you can enter all the parameter manually. These parameters are the one that, in our context, the applications should have access to. For instance, when someone asks for an itinerary, the application knows the date, the weather... You also need to select an image to test (you can find them [here](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/tree/main/data/img/test_images)) by clicking on the button. The prediction will then be printed at the bottom of this window. Here is a screenshot of what it looks like: 
+We thought it would be relevant to add some information about the code itself. We decided to implement a very basic user interface. Using the Tkinter library, we created a window that open when the code is launched. In this window, you can enter all the parameter manually. These parameters are the one that, in our context, the applications should have access to. For instance, when someone asks for an itinerary, the application knows the date, the weather... You also need to select an image to test (you can find them [here](data/img/test_images)) by clicking on the button. The prediction will then be printed at the bottom of this window. Here is a screenshot of what it looks like: 
 
 ![](data/img/crashProphet.png)
 
-Link to the script: [user interface](https://github.com/dmml-heriot-watt/group-coursework-pink-twins/blob/main/scripts/ui_crash_prophet.py)
+Link to the script: [user interface](scripts/ui_crash_prophet.py)
 
 ### Architecture of the Project: 
 
